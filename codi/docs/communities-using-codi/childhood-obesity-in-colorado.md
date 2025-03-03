@@ -1,0 +1,8 @@
+---
+---
+
+# Childhood Obesity in Colorado
+
+CODI was first implemented in 2018 in Denver, Colorado, (CODI@CO), by integrating with the existing Colorado Health Observation Regional Data Service (CHORDS), a Distributed Health Data Network. CODI@CO linked child health-related data from three health systems (Denver Public Health & Hospital Authority, Children’s Hospital Colorado, and Kaiser Permanente Colorado) and two community-based organizations (Girls on the Run of the Rockies and Hunger Free Colorado). Analytic results are providing information on growth and clinical action for children with excess weight; how contact hours and frequency of participation in weight management interventions affect health; and local child obesity prevalence (CODI Overview). For more information, please [<span style={{color: '#3B8BFF'}}>visit their website</span>](http://www.chordsnetwork.org/). 
+
+This implementation was supported by the Centers for Disease Control and Prevention (CDC) from 2018-2020. The technical approach implemented in Colorado differs from the approach described on this website. A CODI toolbox hosted by the Public Health Informatics Institute describes this implementation and offers processes, standards, and tools to support partnership building, capacity assessments, and data linking and cleaning: [<span style={{color: '#3B8BFF'}}>https://phii.org/course/codi-toolbox/</span>](https://phii.org/course/codi-toolbox/). 
