@@ -1,2 +1,2 @@
 # codi
-Clinical and Community Data Initiative
+Community and Clinical Data Initiative
