@@ -109,7 +109,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The MITRE Corporation, Inc. Approved for Public Release: 25-0288. Distribution Unlimited.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The MITRE Corporation. All Rights Reserved. Approved for Public Release: 25-0288. Distribution Unlimited.`,
       },
       prism: {
         theme: prismThemes.github,
