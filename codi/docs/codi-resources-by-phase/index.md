@@ -28,7 +28,7 @@ Please check back soon as new resources will be posted as they become available.
 <td style={{verticalAlign: 'top'}}>
     <div>
     These resources provide information for organizations interested in CODI to learn more and understand their readiness to implement CODI.   
-    * Overview Fact Sheet (coming March 6)
+    * Overview Fact Sheet (coming in March)
 
     The following resources are expected by August 2025: 
     * Overview Briefing Slides 
