@@ -28,7 +28,10 @@ Please check back soon as new resources will be posted as they become available.
 <td style={{verticalAlign: 'top'}}>
     <div>
     These resources provide information for organizations interested in CODI to learn more and understand their readiness to implement CODI.   
-    * Overview Fact Sheet (coming in March)
+    * <a href="./preparation-and-planning/overview-fact"><span style={{color: '#3B8BFF'}}>Maryland Pilot Overview Fact Sheet</span></a>
+    * <a href="./preparation-and-planning/collect-store-data-best-practices"><span style={{color: '#3B8BFF'}}>Best Practices for Community-Based Organizations in Collecting and Storing Data</span></a>
+
+
 
     The following resources are expected by August 2025: 
     * Overview Briefing Slides 
@@ -40,9 +43,13 @@ Please check back soon as new resources will be posted as they become available.
 <td >
     These resources provide support for organizations in various aspects of a CODI implementation.    
     
+    Data Model
     * <a href="./implementation/data-model-dictionary"><span style={{color: '#3B8BFF'}}>Data Model Data Dictionary</span></a>
     * <a href="./implementation/data-model-ig"><span style={{color: '#3B8BFF'}}>Data Model Implementation Guide</span></a>
     * <a href="./implementation/structured-data-extract-map-tool"><span style={{color: '#3B8BFF'}}>Structured Data Extract Mapping Tool </span></a>
+
+    Measuring Impact
+    * <a href="./implementation/dose-services-measure-def"><span style={{color: '#3B8BFF'}}>Dose of Services Measure Definition</span></a>
     * <a href="./implementation/diabetes-prevalence-measure-def"><span style={{color: '#3B8BFF'}}>Diabetes Prevalence Outcome Measure Definition</span></a>
     * <a href="./implementation/diabetes-control-measure-def"><span style={{color: '#3B8BFF'}}>Diabetes Control Outcome Measure Definition </span></a>
     * <a href="./implementation/reporting-tool-wireframe-reqs"><span style={{color: '#3B8BFF'}}>Reporting Tool Wireframes and Requirements</span></a>

@@ -106,6 +106,10 @@ const config = {
                 label: 'CODI GitHub',
                 href: 'https://github.com/mitre/codi',
               },
+              {
+                label: 'Contact Us',
+                href: 'mailto:CODI@mitre.org',
+              },
             ],
           },
         ],
