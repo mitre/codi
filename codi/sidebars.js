@@ -33,13 +33,24 @@ const sidebars = {
         {
           type: 'category',
           label: 'Preparation and Planning',
-          items: ['codi-resources-by-phase/preparation-and-planning/overview-fact'],
+          items: ['codi-resources-by-phase/preparation-and-planning/overview-fact', 'codi-resources-by-phase/preparation-and-planning/collect-store-data-best-practices'],
          
         },
         {
           type: 'category',
           label: 'Implementation',
-          items: ['codi-resources-by-phase/implementation/data-model-dictionary', 'codi-resources-by-phase/implementation/data-model-ig', 'codi-resources-by-phase/implementation/structured-data-extract-map-tool', 'codi-resources-by-phase/implementation/diabetes-prevalence-measure-def', 'codi-resources-by-phase/implementation/diabetes-control-measure-def', 'codi-resources-by-phase/implementation/reporting-tool-wireframe-reqs'],
+          items: [
+            {
+              type: 'category',
+              label: 'Data Model',
+              items: ['codi-resources-by-phase/implementation/data-model-dictionary', 'codi-resources-by-phase/implementation/data-model-ig', 'codi-resources-by-phase/implementation/structured-data-extract-map-tool'],
+            },
+            {
+              type: 'category',
+              label: 'Measuring Impact',
+              items: ['codi-resources-by-phase/implementation/dose-services-measure-def', 'codi-resources-by-phase/implementation/diabetes-prevalence-measure-def', 'codi-resources-by-phase/implementation/diabetes-control-measure-def', 'codi-resources-by-phase/implementation/reporting-tool-wireframe-reqs'],
+            }
+          ]
         }
       ],
     },
