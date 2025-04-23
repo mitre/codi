@@ -1,0 +1,778 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "questionnaire-determine-your-nutritional-health-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-behave"
+    ]
+  },
+  "url": "https://acl.gov/sites/default/files/nutrition/NSI_checklist_508%20with%20citation.pdf",
+  "name": "Determine Your Nutritional Health",
+  "title": "Determine Your Nutritional Health",
+  "status": "draft",
+  "publisher": "The Nutrition Screening Initiative",
+  "description": "This checklist is used to determine nutritional risk. ",
+  "purpose": "This checklist is used to estimate an older individual's nutrition score which is translated into three different categories: Good, moderate nutritional risk, or high nutritional risk. Based on the nutrition score, individuals are encouraged to recheck their score at either 6 months, 3 months, or to seek help from a professional to improve their nutritional health.  ",
+  "item": [
+    {
+      "type": "display",
+      "linkId": "850793350552",
+      "text": "Read the statements below. Select yes for those that apply to you or someone you know or no if they do not apply.  Your nutritional score will calculate automatically based on your choices."
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "274340053918",
+      "text": "I have an illness or condition that made me change the kind and /or amount of food I eat. ",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "891584640043",
+      "text": "I eat fewer than two meals per day.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "500797157951",
+      "text": "I eat few fruits or vegetables, or milk products.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "386643235292",
+      "text": "I have three or more drinks of beer, liquor or wine almost every day.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "499897774747",
+      "text": "I have tooth or mouth problems that make it hard for me to eat.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "741505990061",
+      "text": "I don't always have enough money to buy the food I need.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "589634574924",
+      "text": "I eat alone most of the time.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "779061594607",
+      "text": "I take three or more different prescribed or over-the-counter drugs a day.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "710533823017",
+      "text": "Without wanting to, I have lost or gained 10 pounds in the last six months.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "955918388338",
+      "text": "I am not always physically able to shop, cook and/or feed myself.",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "illness",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '274340053918').answerOption.where(valueCoding.code=%resource.item.where(linkId = '274340053918').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "meals",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '891584640043').answerOption.where(valueCoding.code=%resource.item.where(linkId = '891584640043').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "fruits",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '500797157951').answerOption.where(valueCoding.code=%resource.item.where(linkId = '500797157951').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "beer",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '386643235292').answerOption.where(valueCoding.code=%resource.item.where(linkId = '386643235292').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "tooth",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '499897774747').answerOption.where(valueCoding.code=%resource.item.where(linkId = '499897774747').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "money",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '741505990061').answerOption.where(valueCoding.code=%resource.item.where(linkId = '741505990061').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "alone",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '589634574924').answerOption.where(valueCoding.code=%resource.item.where(linkId = '589634574924').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "drugs",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '779061594607').answerOption.where(valueCoding.code=%resource.item.where(linkId = '779061594607').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "weight",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '710533823017').answerOption.where(valueCoding.code=%resource.item.where(linkId = '710533823017').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "physical",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '955918388338').answerOption.where(valueCoding.code=%resource.item.where(linkId = '955918388338').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "anyquestionsanswered",
+            "language": "text/fhirpath",
+            "expression": "%illness.exists() or %meals.exists() or %fruits.exists() or %beer.exists() or %tooth.exists() or %money.exists() or %alone.exists() or %drugs.exists() or %weight.exists() or %physical.exists()"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression",
+          "valueExpression": {
+            "description": "Total score calculation",
+            "language": "text/fhirpath",
+            "expression": "iif(%anyquestionsanswered, iif(%illness.exists(), %illness, 0) + iif(%meals.exists(), %meals, 0) + iif(%fruits.exists(), %fruits, 0) + iif(%beer.exists(), %beer, 0) + iif(%tooth.exists(), %tooth, 0) + iif(%money.exists(), %money, 0) + iif(%alone.exists(), %alone, 0) + iif(%drugs.exists(), %drugs, 0) + iif(%weight.exists(), %weight, 0) + iif(%physical.exists(), %physical, 0), {})"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}",
+            "display": "{score}"
+          }
+        }
+      ],
+      "linkId": "148943359172",
+      "text": "Total"
+    },
+    {
+      "type": "display",
+      "linkId": "536033676765",
+      "text": "Good! Recheck your nutritional score in 6 months.",
+      "enableWhen": [
+        {
+          "question": "274340053918",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "891584640043",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "500797157951",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "386643235292",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "499897774747",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "741505990061",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "589634574924",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "779061594607",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "710533823017",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "955918388338",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "148943359172",
+          "operator": "<=",
+          "answerDecimal": 2
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "775945154830",
+      "text": "You are at moderate nutritional risk.",
+      "enableWhen": [
+        {
+          "question": "274340053918",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "891584640043",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "500797157951",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "386643235292",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "499897774747",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "741505990061",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "589634574924",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "779061594607",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "710533823017",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "955918388338",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "148943359172",
+          "operator": ">=",
+          "answerDecimal": 3
+        },
+        {
+          "question": "148943359172",
+          "operator": "<=",
+          "answerDecimal": 5
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "300428800599",
+      "text": "You are at high nutritional risk",
+      "enableWhen": [
+        {
+          "question": "274340053918",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "891584640043",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "500797157951",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "386643235292",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "499897774747",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "741505990061",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "589634574924",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "779061594607",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "710533823017",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "955918388338",
+          "operator": "exists",
+          "answerBoolean": true
+        },
+        {
+          "question": "148943359172",
+          "operator": ">=",
+          "answerDecimal": 6
+        }
+      ],
+      "enableBehavior": "all"
+    }
+  ]
+}

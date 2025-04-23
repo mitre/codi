@@ -1,0 +1,5 @@
+"CURRICULUM_COMPONENT_ID","PROGRAMID","SESSION_INDEX","SESSION_FREQ","SESSION_FREQ_UNIT","SCREENING","COUNSELING","INTERVENTION_ACTIVITY","INTERVENTION_NUTRITION","INTERVENTION_NAVIGATION","INTERVENTION_SDOH","DOSE"
+"CTC_30_day_Followup","CTC","1","1","O","N","N","N","N","Y","Y",""
+"CTC_60_day_Followup","CTC","2","1","O","N","N","N","N","Y","Y",""
+"CTC_90_day_Followup","CTC","3","1","O","N","N","N","N","Y","Y",""
+"CTC_120_day_Followup","CTC","4","1","O","N","N","N","N","Y","Y",""

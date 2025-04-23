@@ -1,0 +1,728 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "questionnaire-expanded-food-security-screener-by-the-university-of-maryland-r4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-behave"
+    ]
+  },
+  "url": "https://nfsc.umd.edu/extension/expanded-food-security-screener/",
+  "title": "Expanded Food Security Screener (FSS-Exp) by the University of Maryland",
+  "status": "draft",
+  "description": "This is a questionnaire to collect information on an individual’s economic access to food, their ability to get groceries into their home, and their ability to prepare meals, with or without help. ",
+  "purpose": "The Expanded Food Security Screener (FSS-Exp) gathers information that can be used to categorize applicants into one of five priority levels for home delivered meal programs (HDM). The categorization scheme for these priority levels is based on the issues that could be specifically addressed by a meal delivered to the home. The FSS-Exp builds on the US Department of Agriculture 6-item Household Food Security Survey Module (HFSSM), which is a validated tool used to assess food security based on questions that ask about ability to afford food. The FSS-Exp combines this economic access information with the other indicators of food security for older adults that indicate need for services: ability to get groceries into the home and ability to prepare meals. To fully understand an individual’s level of need for a meal, the FSS-Exp also takes into account whether the person has help available to accomplish these tasks.",
+  "item": [
+    {
+      "type": "boolean",
+      "linkId": "563294061175",
+      "prefix": "1a",
+      "text": "If you had groceries available, would you be able to use them to prepare hot meals?",
+      "required": true,
+      "repeats": false
+    },
+    {
+      "type": "boolean",
+      "linkId": "524798483518",
+      "prefix": "1b",
+      "text": "Do you have reliable help with meal preparation?",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": false
+        }
+      ]
+    },
+    {
+      "type": "display",
+      "linkId": "218703140697",
+      "text": "STOP - Applicant is a Level A Priority",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": false
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": false
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "135732170924",
+      "text": "During the last month, how often was this statement true:",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any"
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "209552069775",
+      "prefix": "2a",
+      "text": "The food that we bought just didn't last, and we didn't have money to get more",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Often",
+            "display": "Often"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Sometimes",
+            "display": "Sometimes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "Never",
+            "display": "Never"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "571260762695",
+      "prefix": "2b",
+      "text": "We couldn't afford to eat balanced meals",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Often",
+            "display": "Often"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Sometimes",
+            "display": "Sometimes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "Never",
+            "display": "Never"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "693565428401",
+      "prefix": "2c",
+      "text": "Did you or other adults in your household ever cut the size of your meals because there wasn't enough money for food",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "426550568763",
+      "prefix": "2d",
+      "text": "Did you or other adults in your household ever skip meals because there wasn't enough money for food?",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "154867164253",
+      "prefix": "2e",
+      "text": " Did you ever eat less than you felt you should because there wasn't enough money for food?",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "785446160824",
+      "prefix": "2f",
+      "text": "Were you ever hungry but didn't eat because you couldn't afford enough food?",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "linkId": "668753996915",
+      "text": "Add points from questions 2a-2f to the right and then ask question 3.",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "didntlast",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '209552069775').answerOption.where(valueCoding.code=%resource.item.where(linkId = '209552069775').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "balanced",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '571260762695').answerOption.where(valueCoding.code=%resource.item.where(linkId = '571260762695').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "mealsize",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '693565428401').answerOption.where(valueCoding.code=%resource.item.where(linkId = '693565428401').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "skipmeals",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '426550568763').answerOption.where(valueCoding.code=%resource.item.where(linkId = '426550568763').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "eatless",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '154867164253').answerOption.where(valueCoding.code=%resource.item.where(linkId = '154867164253').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "hungry",
+            "language": "text/fhirpath",
+            "expression": "%questionnaire.item.where(linkId = '785446160824').answerOption.where(valueCoding.code=%resource.item.where(linkId = '785446160824').answer.valueCoding.code).extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').valueDecimal",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/variable",
+          "valueExpression": {
+            "name": "anyquestionsanswered",
+            "language": "text/fhirpath",
+            "expression": "%didntlast.exists() or %balanced.exists() or %mealsize.exists() or %skipmeals.exists() or %eatless.exists() or %hungry.exists()",
+            "extension": [
+              {
+                "url": "http://lhcforms.nlm.nih.gov/fhirExt/expression-editor-score-variable",
+                "valueBoolean": true
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression",
+          "valueExpression": {
+            "description": "Total score calculation",
+            "language": "text/fhirpath",
+            "expression": "iif(%anyquestionsanswered, iif(%didntlast.exists(), %didntlast, 0) + iif(%balanced.exists(), %balanced, 0) + iif(%mealsize.exists(), %mealsize, 0) + iif(%skipmeals.exists(), %skipmeals, 0) + iif(%eatless.exists(), %eatless, 0) + iif(%hungry.exists(), %hungry, 0), {})"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "code": "{score}",
+            "display": "{score}",
+            "system": "http://unitsofmeasure.org"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "radio-button",
+                "display": "Radio Button"
+              }
+            ]
+          }
+        }
+      ],
+      "linkId": "705775426165",
+      "prefix": "3",
+      "text": "Are you able to get groceries into your home when you need them?",
+      "enableWhen": [
+        {
+          "question": "563294061175",
+          "operator": "=",
+          "answerBoolean": true
+        },
+        {
+          "question": "524798483518",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "enableBehavior": "any",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 0
+            }
+          ],
+          "valueCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "display",
+      "linkId": "826699252865",
+      "text": "Level E Priority",
+      "enableWhen": [
+        {
+          "question": "705775426165",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "question": "668753996915",
+          "operator": "<=",
+          "answerDecimal": 1
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "255894917364",
+      "text": "Level C Priority",
+      "enableWhen": [
+        {
+          "question": "705775426165",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Yes",
+            "display": "Yes"
+          }
+        },
+        {
+          "question": "668753996915",
+          "operator": ">=",
+          "answerDecimal": 2
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "997935064091",
+      "text": "Level D Priority",
+      "enableWhen": [
+        {
+          "question": "705775426165",
+          "operator": "=",
+          "answerCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        },
+        {
+          "question": "668753996915",
+          "operator": "<=",
+          "answerDecimal": 1
+        }
+      ],
+      "enableBehavior": "all"
+    },
+    {
+      "type": "display",
+      "linkId": "768089803187",
+      "text": "Level B Priority",
+      "enableWhen": [
+        {
+          "question": "705775426165",
+          "operator": "=",
+          "answerCoding": {
+            "code": "No",
+            "display": "No"
+          }
+        },
+        {
+          "question": "668753996915",
+          "operator": ">=",
+          "answerDecimal": 2
+        }
+      ],
+      "enableBehavior": "all"
+    }
+  ]
+}
