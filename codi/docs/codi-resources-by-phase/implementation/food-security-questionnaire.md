@@ -10,5 +10,5 @@ The [<span style={{color: '#3B8BFF'}}>Expanded Food Security Screener (FSS-Exp) 
 [![](../../../static/img/expanded-fss.png)](../../../../codi-resources/Expanded-Food-Security-Screener-by-the-University-of-Maryland.R4.json)
 
 
-[<span style={{color: '#3B8BFF'}}>Expanded Food Security Screener formatted as a FHIR Questionnaire</span>](../../../../codi-resources/Expanded-Food-Security-Screener-by-the-University-of-Maryland.R4.json)
+[<span style={{color: '#3B8BFF'}}>Expanded Food Security Screener FHIR-formatted Questionnaire</span>](../../../../codi-resources/Expanded-Food-Security-Screener-by-the-University-of-Maryland.R4.json)
 </div>

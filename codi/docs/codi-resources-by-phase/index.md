@@ -54,8 +54,8 @@ Please check back soon as new resources will be posted as they become available.
 
     **Data Quality**
     * <a href="./implementation/sde-qa-script"><span style={{color: '#3B8BFF'}}>Structured Data Extract Quality Assurance Script</span></a>
-    * <a href="./implementation/sde-sample-1"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #1: home delivered meals, congregate meals program, and care transitions program</span></a>
-    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: falls prevention, diabetes self-management education, chronic disease self-management, and chronic pain self-management programs</span></a>
+    * <a href="./implementation/sde-sample-1"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #1: Social Care Data</span></a>
+    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: Evidenced-Based Programs</span></a>
 
 
     **Measuring Impact**
