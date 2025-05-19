@@ -8,7 +8,9 @@ The [<span style={{color: '#3B8BFF'}}>Structured Data Extract Quality Assurance 
 
 <div style={{width: '250px', display: 'inline-block'}}>
 
+  <div style={{border: "2px solid"}}>
     [![](../../../static/img/sde-qa-script.png)](https://github.com/mitre/data_model_validation)
+  </div>
 
     [<span style={{color: '#3B8BFF'}}>Structured Data Extract Quality Assurance Script</span>](https://github.com/mitre/data_model_validation)
 </div>
