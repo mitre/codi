@@ -20,58 +20,79 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'get-started',
+    "get-started",
     {
-      type: 'category',
-      label: 'CODI Resources by Phase',
+      type: "category",
+      label: "CODI Resources by Phase",
       collapsed: false,
-      link:{
-        type: 'doc',
-        id: 'codi-resources-by-phase/CODIResourcesByPhase'
+      link: {
+        type: "doc",
+        id: "codi-resources-by-phase/CODIResourcesByPhase",
       },
       items: [
         {
-          type: 'category',
-          label: 'Preparation and Planning',
-          items: ['codi-resources-by-phase/preparation-and-planning/overview-fact', 'codi-resources-by-phase/preparation-and-planning/collect-store-data-best-practices', 'codi-resources-by-phase/preparation-and-planning/example-data-sharing-mou', 'codi-resources-by-phase/preparation-and-planning/md-social-care-data-sharing-implementation-guidance'],
-
+          type: "category",
+          label: "Preparation and Planning",
+          items: [
+            "codi-resources-by-phase/preparation-and-planning/model-overview-briefing",
+            "codi-resources-by-phase/preparation-and-planning/overview-fact",
+            "codi-resources-by-phase/preparation-and-planning/collect-store-data-best-practices",
+            "codi-resources-by-phase/preparation-and-planning/example-data-sharing-mou",
+            "codi-resources-by-phase/preparation-and-planning/md-social-care-data-sharing-implementation-guidance",
+          ],
         },
         {
-          type: 'category',
-          label: 'Implementation',
+          type: "category",
+          label: "Implementation",
           items: [
             {
-              type: 'category',
-              label: 'Data Model',
-              items: ['codi-resources-by-phase/implementation/data-model-dictionary', 'codi-resources-by-phase/implementation/data-model-ig', 'codi-resources-by-phase/implementation/structured-data-extract-map-tool', 'codi-resources-by-phase/implementation/determine-questionnaire', 'codi-resources-by-phase/implementation/food-security-questionnaire'],
+              type: "category",
+              label: "Data Model",
+              items: [
+                "codi-resources-by-phase/implementation/data-model-dictionary",
+                "codi-resources-by-phase/implementation/data-model-ig",
+                "codi-resources-by-phase/implementation/structured-data-extract-map-tool",
+                "codi-resources-by-phase/implementation/determine-questionnaire",
+                "codi-resources-by-phase/implementation/food-security-questionnaire",
+              ],
             },
             {
-              type: 'category',
-              label: 'Data Quality',
-              items: ['codi-resources-by-phase/implementation/sde-qa-script', 'codi-resources-by-phase/implementation/sde-sample-1', 'codi-resources-by-phase/implementation/sde-sample-2'],
+              type: "category",
+              label: "Data Quality",
+              items: [
+                "codi-resources-by-phase/implementation/sde-qa-script",
+                "codi-resources-by-phase/implementation/sde-sample-1",
+                "codi-resources-by-phase/implementation/sde-sample-2",
+              ],
             },
             {
-              type: 'category',
-              label: 'Measuring Impact',
-              items: ['codi-resources-by-phase/implementation/dose-services-measure-def', 'codi-resources-by-phase/implementation/diabetes-prevalence-measure-def', 'codi-resources-by-phase/implementation/diabetes-control-measure-def', 'codi-resources-by-phase/implementation/reporting-tool-wireframe-reqs'],
-            }
-          ]
-        }
+              type: "category",
+              label: "Measuring Impact",
+              items: [
+                "codi-resources-by-phase/implementation/dose-services-measure-def",
+                "codi-resources-by-phase/implementation/diabetes-prevalence-measure-def",
+                "codi-resources-by-phase/implementation/diabetes-control-measure-def",
+                "codi-resources-by-phase/implementation/hypertension-prevalence-measure-def",
+                "codi-resources-by-phase/implementation/hypertension-control-measure-def",
+                "codi-resources-by-phase/implementation/reporting-tool-wireframe-reqs",
+              ],
+            },
+          ],
+        },
       ],
     },
     {
-      type: 'category',
-      label: 'Communities Using CODI',
+      type: "category",
+      label: "Communities Using CODI",
       collapsed: false,
-      link:{
-        type: 'doc',
-        id: 'communities-using-codi/communities-using-codi'
+      link: {
+        type: "doc",
+        id: "communities-using-codi/communities-using-codi",
       },
       items: [
-
-        'communities-using-codi/food-insecurity-in-maryland',
-        'communities-using-codi/chronic-disease-in-north-carolina',
-        'communities-using-codi/childhood-obesity-in-colorado'
+        "communities-using-codi/food-insecurity-in-maryland",
+        "communities-using-codi/chronic-disease-in-north-carolina",
+        "communities-using-codi/childhood-obesity-in-colorado",
       ],
     },
   ],
