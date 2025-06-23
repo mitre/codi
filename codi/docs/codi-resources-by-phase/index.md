@@ -28,18 +28,21 @@ Please check back soon as new resources will be posted as they become available.
 <td style={{verticalAlign: 'top'}}>
     <div>
     These resources provide information for organizations interested in CODI to learn more and understand their readiness to implement CODI.
+    * <a href="./preparation-and-planning/model-overview-briefing">
+        <span style={{color: '#3B8BFF'}}>CODI Model Overview Briefing</span>
+      </a>
     * <a href="./preparation-and-planning/overview-fact"><span style={{color: '#3B8BFF'}}>Maryland Pilot Overview Fact Sheet</span></a>
     * <a href="./preparation-and-planning/collect-store-data-best-practices"><span style={{color: '#3B8BFF'}}>Best Practices for Community-Based Organizations in Collecting and Storing Data</span></a>
     * <a href="./preparation-and-planning/example-data-sharing-mou"><span style={{color: '#3B8BFF'}}>Example Memorandum of Understanding for Data Sharing</span></a>
     * <a href="./preparation-and-planning/md-social-care-data-sharing-implementation-guidance"><span style={{color: '#3B8BFF'}}>Maryland Social Care Data Sharing Implementation Guidance</span></a>
 
 
-
     The following resources are expected by August 2025:
     * Overview Fact Sheet
-    * Overview Briefing Slides
     * Implementation Playbook
     * Implementation Readiness Criteria
+    * Lessons Learned
+    * Impact Report
     </div>
 </td>
 <td >
@@ -62,11 +65,13 @@ Please check back soon as new resources will be posted as they become available.
     * <a href="./implementation/dose-services-measure-def"><span style={{color: '#3B8BFF'}}>Dose of Services Measure Definition</span></a>
     * <a href="./implementation/diabetes-prevalence-measure-def"><span style={{color: '#3B8BFF'}}>Diabetes Prevalence Outcome Measure Definition</span></a>
     * <a href="./implementation/diabetes-control-measure-def"><span style={{color: '#3B8BFF'}}>Diabetes Control Outcome Measure Definition </span></a>
+    * <a href="./implementation/hypertension-prevalence-measure-def">
+        <span style={{color: '#3B8BFF'}}>Hypertension Prevalence Measure Definition</span>
+      </a>
+    * <a href="./implementation/hypertension-control-measure-def">
+        <span style={{color: '#3B8BFF'}}>Hypertension Control Measure Definition</span>
+      </a>
     * <a href="./implementation/reporting-tool-wireframe-reqs"><span style={{color: '#3B8BFF'}}>Reporting Tool Wireframes and Requirements</span></a>
-
-    The following resources are expected by August 2025:
-    * Hypertension Prevalence Measure Definition
-    * Hypertension Control Measure Definition
 
 </td>
 </tr>
