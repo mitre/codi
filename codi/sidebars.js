@@ -32,13 +32,16 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "Preparation and Planning",
+          label: "Preparation, Discovery, and Planning",
           items: [
-            "codi-resources-by-phase/preparation-and-planning/model-overview-briefing",
-            "codi-resources-by-phase/preparation-and-planning/overview-fact",
-            "codi-resources-by-phase/preparation-and-planning/collect-store-data-best-practices",
-            "codi-resources-by-phase/preparation-and-planning/example-data-sharing-mou",
-            "codi-resources-by-phase/preparation-and-planning/md-social-care-data-sharing-implementation-guidance",
+            "codi-resources-by-phase/preparation-discovery-and-planning/codi-overview-fact-sheet",
+            "codi-resources-by-phase/preparation-discovery-and-planning/model-overview-briefing",
+            "codi-resources-by-phase/preparation-discovery-and-planning/md-overview-fact-sheet",
+            "codi-resources-by-phase/preparation-discovery-and-planning/md-codi-impact-report",
+            "codi-resources-by-phase/preparation-discovery-and-planning/codi-implementation-playbook",
+            "codi-resources-by-phase/preparation-discovery-and-planning/collect-store-data-best-practices",
+            "codi-resources-by-phase/preparation-discovery-and-planning/example-data-sharing-mou",
+            "codi-resources-by-phase/preparation-discovery-and-planning/md-cbo-data-sharing-implementation-guidance",
           ],
         },
         {
