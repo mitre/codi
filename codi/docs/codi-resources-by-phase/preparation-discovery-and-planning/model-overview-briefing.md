@@ -18,8 +18,8 @@ implementation.
 
 <div style={{width: '250px' }}>
 
-    [![](../../../static/img/model-overview-briefing.png)](../../../../codi-resources/CODI_Model_Overview_Briefing_20250618.pdf)
+    [![](../../../static/img/model-overview-briefing.png)](../../../../codi-resources/CODI_Model_Overview_Briefing_20250807.pdf)
 
     [<span style={{color: '#3B8BFF'}}>CODI Model Overview
-    Briefing</span>](../../../../codi-resources/CODI_Model_Overview_Briefing_20250618.pdf)
+    Briefing</span>](../../../../codi-resources/CODI_Model_Overview_Briefing_20250807.pdf)
 </div>
