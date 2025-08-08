@@ -6,10 +6,10 @@ id: CODIResourcesByPhase
 
 # CODI Resources By Phase
 
-This section houses CODI resources for implementers to use in their community. Because every CODI implementation is unique, not all resources may be required or applicable. The resources are organized by the implementation phase where they apply.
-
-Please check back soon as new resources will be posted as they become available.
-
+This section houses CODI resources for implementers to use in their community.
+Because every CODI implementation is unique, not all resources may be required
+or applicable. The resources are organized by the implementation phase where
+they apply.
 
 <table>
     <colgroup>
@@ -18,7 +18,7 @@ Please check back soon as new resources will be posted as they become available.
     </colgroup>
     <tr>
         <th scope="col" style={{width: '50%'}}>
-        ## Preparation and Planning
+        ## Preparation, Discovery, and Planning
         </th>
         <th scope="col" style={{width: '50%'}}>
         ## Implementation
@@ -27,25 +27,43 @@ Please check back soon as new resources will be posted as they become available.
 <tr>
 <td style={{verticalAlign: 'top'}}>
     <div>
-    These resources provide information for organizations interested in CODI to learn more and understand their readiness to implement CODI.
-    * <a href="./preparation-and-planning/model-overview-briefing">
+    These resources introduce the CODI Model, summarize the value of a CODI
+    implementation, and describe the data sharing approach.
+
+    * <a href="./preparation-discovery-and-planning/codi-overview-fact-sheet">
+        <span style={{color: '#3B8BFF'}}>CODI Overview Fact Sheet (coming soon)</span>
+      </a>
+    * <a href="./preparation-discovery-and-planning/model-overview-briefing">
         <span style={{color: '#3B8BFF'}}>CODI Model Overview Briefing</span>
       </a>
-    * <a href="./preparation-and-planning/overview-fact"><span style={{color: '#3B8BFF'}}>Maryland Pilot Overview Fact Sheet</span></a>
-    * <a href="./preparation-and-planning/collect-store-data-best-practices"><span style={{color: '#3B8BFF'}}>Best Practices for Community-Based Organizations in Collecting and Storing Data</span></a>
-    * <a href="./preparation-and-planning/example-data-sharing-mou"><span style={{color: '#3B8BFF'}}>Example Memorandum of Understanding for Data Sharing</span></a>
-    * <a href="./preparation-and-planning/md-social-care-data-sharing-implementation-guidance"><span style={{color: '#3B8BFF'}}>Maryland Social Care Data Sharing Implementation Guidance</span></a>
+    * <a href="./preparation-discovery-and-planning/md-overview-fact-sheet">
+        <span style={{color: '#3B8BFF'}}>Maryland Pilot Overview Fact Sheet</span>
+      </a>
+    * <a href="./preparation-discovery-and-planning/md-codi-impact-report">
+        <span style={{color: '#3B8BFF'}}>Maryland CODI Impact Report (coming soon)</span>
+      </a>
+    </div>
 
+    <div>
+    These resources help organizations understand their readiness to implement
+    CODI and to support planning efforts.
 
-    The following resources are expected by August 2025:
-    * Overview Fact Sheet
-    * Implementation Playbook
-    * Implementation Readiness Criteria
-    * Lessons Learned
-    * Impact Report
+    * <a href="./preparation-discovery-and-planning/codi-implementation-playbook">
+        <span style={{color: '#3B8BFF'}}>Connecting Data to Improve Health: CODI
+        Implementation Playbook for Communities with an HIE (coming soon)</span>
+      </a>
+    * <a href="./preparation-discovery-and-planning/md-cbo-data-sharing-implementation-guidance">
+        <span style={{color: '#3B8BFF'}}>Maryland Community-Based Organization Data Sharing Implementation Guidance</span>
+      </a>
+
+    * <span style={{color: '#3B8BFF'}}>Turning Challenges into Opportunities:
+            Lessons from CODI Implementations (coming soon)</span>
+
+    * <a href="./preparation-discovery-and-planning/collect-store-data-best-practices"><span style={{color: '#3B8BFF'}}>Best Practices for Community-Based Organizations in Collecting and Storing Data</span></a>
+    * <a href="./preparation-discovery-and-planning/example-data-sharing-mou"><span style={{color: '#3B8BFF'}}>Example Memorandum of Understanding for Data Sharing</span></a>
     </div>
 </td>
-<td >
+<td>
     These resources provide support for organizations in various aspects of a CODI implementation.
 
     **Data Model**
