@@ -84,7 +84,9 @@ At its core, implementing the CODI model is about building data sharing partners
 6. CBO uses dashboard to communicate impact of programs and services
 
 
-Resources have been developed to support this design and are posted to this GitHub site including:
+[<span style={{color: '#3B8BFF'}}>Resources</span>](./codi-resources-by-phase/) have
+been developed to support this design and are posted to this GitHub site
+including:
 
 *  CODI Data Model, which provides a common format to store and exchange data.
 *  Outcome measure definitions, which provide detailed instructions on how to measure a number of health outcomes.

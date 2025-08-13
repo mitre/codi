@@ -39,9 +39,10 @@ const sidebars = {
             "codi-resources-by-phase/preparation-discovery-and-planning/md-overview-fact-sheet",
             "codi-resources-by-phase/preparation-discovery-and-planning/md-codi-impact-report",
             "codi-resources-by-phase/preparation-discovery-and-planning/codi-implementation-playbook",
+            "codi-resources-by-phase/preparation-discovery-and-planning/md-cbo-data-sharing-implementation-guidance",
+            "codi-resources-by-phase/preparation-discovery-and-planning/lessons-from-codi-implementations",
             "codi-resources-by-phase/preparation-discovery-and-planning/collect-store-data-best-practices",
             "codi-resources-by-phase/preparation-discovery-and-planning/example-data-sharing-mou",
-            "codi-resources-by-phase/preparation-discovery-and-planning/md-cbo-data-sharing-implementation-guidance",
           ],
         },
         {
