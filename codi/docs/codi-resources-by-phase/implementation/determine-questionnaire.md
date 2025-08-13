@@ -8,8 +8,12 @@ The [<span style={{color: '#3B8BFF'}}>DETERMINE Your Nutritional Risk Checklist 
 
 <div style={{width: '250px'}}>
 
-[![](../../../static/img/determine-questionnaire.png)](../../../../codi-resources/Determine-Your-Nutritional-Health.R4.json)
+  <div style={{border: "2px solid"}}>
+    [![](../../../static/img/determine-questionnaire.png)](../../../../codi-resources/Determine-Your-Nutritional-Health.R4.json)
+  </div>
 
-[<span style={{color: '#3B8BFF'}}>DETERMINE Your Nutritional Risk Checklist
-FHIR-formatted Questionnaire</span>](../../../../codi-resources/Determine-Your-Nutritional-Health.R4.json)
+  [<span style={{color: '#3B8BFF'}}>DETERMINE Your Nutritional Risk
+  Checklist FHIR-formatted
+Questionnaire</span>](../../../../codi-resources/Determine-Your-Nutritional-Health.R4.json)
+
 </div>

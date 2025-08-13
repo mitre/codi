@@ -31,7 +31,7 @@ they apply.
     implementation, and describe the data sharing approach.
 
     * <a href="./preparation-discovery-and-planning/codi-overview-fact-sheet">
-        <span style={{color: '#3B8BFF'}}>CODI Overview Fact Sheet (coming soon)</span>
+        <span style={{color: '#3B8BFF'}}>CODI Overview Fact Sheet</span>
       </a>
     * <a href="./preparation-discovery-and-planning/model-overview-briefing">
         <span style={{color: '#3B8BFF'}}>CODI Model Overview Briefing</span>
@@ -40,7 +40,7 @@ they apply.
         <span style={{color: '#3B8BFF'}}>Maryland Pilot Overview Fact Sheet</span>
       </a>
     * <a href="./preparation-discovery-and-planning/md-codi-impact-report">
-        <span style={{color: '#3B8BFF'}}>Maryland CODI Impact Report (coming soon)</span>
+        <span style={{color: '#3B8BFF'}}>Maryland CODI Impact Report</span>
       </a>
     </div>
 
@@ -56,8 +56,10 @@ they apply.
         <span style={{color: '#3B8BFF'}}>Maryland Community-Based Organization Data Sharing Implementation Guidance</span>
       </a>
 
-    * <span style={{color: '#3B8BFF'}}>Turning Challenges into Opportunities:
-            Lessons from CODI Implementations (coming soon)</span>
+    * <a href="./preparation-discovery-and-planning/lessons-from-codi-implementations">
+        <span style={{color: '#3B8BFF'}}>Turning Challenges into Opportunities:
+        Lessons from CODI Implementations</span>
+      </a>
 
     * <a href="./preparation-discovery-and-planning/collect-store-data-best-practices"><span style={{color: '#3B8BFF'}}>Best Practices for Community-Based Organizations in Collecting and Storing Data</span></a>
     * <a href="./preparation-discovery-and-planning/example-data-sharing-mou"><span style={{color: '#3B8BFF'}}>Example Memorandum of Understanding for Data Sharing</span></a>
@@ -75,8 +77,8 @@ they apply.
 
     **Data Quality**
     * <a href="./implementation/sde-qa-script"><span style={{color: '#3B8BFF'}}>Structured Data Extract Quality Assurance Script</span></a>
-    * <a href="./implementation/sde-sample-1"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #1: Social Care Data</span></a>
-    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: Evidenced-Based Programs</span></a>
+    * <a href="./implementation/sde-sample-1"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #1: Nutrition and Care Transition Programs</span></a>
+    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: Evidence-Based Programs</span></a>
 
 
     **Measuring Impact**
