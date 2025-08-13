@@ -71,10 +71,14 @@ services, which are often customized for target populations and priority topics.
 * Participation in CODI identifies opportunities for harmonization across partners
 
 
-The CODI model goes beyond data sharing to provide outcome measures and visualization resources to drive population health improvements. 
+The CODI model goes beyond data sharing to provide outcome measures
+and visualization resources to drive population health improvements. 
 
 ## What processes do the CODI model and resources support?
-At its core, implementing the CODI model is about building data sharing partnerships and using data in new ways. The data flow that the CODI model seeks to achieve is:
+
+At its core, implementing the CODI model is about building data
+sharing partnerships and using data in new ways. The data flow that
+the CODI model seeks to achieve is:
 
 1. CBO extracts, normalizes, and securely transmits structured data from selected information systems to HIE
 2. HIE ingests, transforms, and links social care data to clinical data
@@ -108,7 +112,9 @@ program or service enrollment data, and program or service delivery data.
 *  Sufficient individual level information to link program and service data to clinical data.
 *  Staffing resources to extract and transform data to submit to the HIE.
 
-If your organization is interested in moving forward with a CODI implementation, check out the [<span style={{color: '#3B8BFF'}}>CODI Resources</span>](./codi-resources-by-phase/index.md).
+If your organization is interested in moving forward with a CODI
+implementation, check out the [<span style={{color: '#3B8BFF'}}>CODI
+Resources</span>](./codi-resources-by-phase/index.md).
 
 
 
@@ -122,5 +128,6 @@ To implement CODI, an HIE will need, at a minimum, the following:
 *  Ability to ingest data from a CBO and update the reporting tool in a timely manner.
 *  Reporting capabilities with analytic tools for the CBO to see their outcome and service data.
 
-If your organization is interested in moving forward with a CODI implementation, check out the [<span style={{color: '#3B8BFF'}}>CODI Resources</span>](./codi-resources-by-phase/index.md).
-
+If your organization is interested in moving forward with a CODI
+implementation, check out the [<span style={{color: '#3B8BFF'}}>CODI
+Resources</span>](./codi-resources-by-phase/index.md).
