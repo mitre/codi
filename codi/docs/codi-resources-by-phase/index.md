@@ -78,7 +78,7 @@ they apply.
     **Data Quality**
     * <a href="./implementation/sde-qa-script"><span style={{color: '#3B8BFF'}}>Structured Data Extract Quality Assurance Script</span></a>
     * <a href="./implementation/sde-sample-1"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #1: Nutrition and Care Transition Programs</span></a>
-    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: Evidenced-Based Programs</span></a>
+    * <a href="./implementation/sde-sample-2"><span style={{color: '#3B8BFF'}}>Structured Data Extract Sample Data #2: Evidence-Based Programs</span></a>
 
 
     **Measuring Impact**
