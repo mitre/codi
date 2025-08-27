@@ -6,7 +6,8 @@ id: communities-using-codi
 
 The CODI model has been implemented in three communities since its inception in 2018.  
 
-
-* <a href="./food-insecurity-in-maryland"><span style={{color: '#3B8BFF'}}>Food Insecurity in Maryland</span></a>
-* <a href="./chronic-disease-in-north-carolina"><span style={{color: '#3B8BFF'}}>Chronic Disease in North Carolina</span></a>
-* <a href="./childhood-obesity-in-colorado"><span style={{color: '#3B8BFF'}}>Childhood Obesity in Colorado</span></a>
+<div className="blue-links">
+* [Food Insecurity in Maryland](./food-insecurity-in-maryland.md)
+* [Chronic Disease in North Carolina](./chronic-disease-in-nort-carolina.md)
+* [Childhood Obesity in Colorado](./childhood-obesity-in-colorado.md)
+</div>
