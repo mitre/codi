@@ -41,7 +41,7 @@ they apply.
     These resources help organizations understand their readiness to implement
     CODI and to support planning efforts.
 
-    * [Connecting Data to Improve Health: CODI Implementation Playbook for Communities with an HIE (coming soon)](./preparation-discovery-and-planning/codi-implementation-playbook.md)
+    * [Connecting Data to Improve Health: CODI Implementation Playbook for Communities with an HIE](./preparation-discovery-and-planning/codi-implementation-playbook.md)
     * [Maryland Community-Based Organization Data Sharing Implementation Guidance](./preparation-discovery-and-planning/md-cbo-data-sharing-implementation-guidance.md)
     * [Turning Challenges into Opportunities: Lessons from CODI Implementations](./preparation-discovery-and-planning/lessons-from-codi-implementations.md)
     * [Best Practices for Community-Based Organizations in Collecting and Storing Data](./preparation-discovery-and-planning/collect-store-data-best-practices.md)
