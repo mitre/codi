@@ -13,20 +13,18 @@ the continuation of this work beyond the implementation phase. This report may
 be used to provide an example of the types of impact that partners can expect
 following a CODI implementation.
 
-<div style={{width: '250px' }}>
+<div style={{width: '250px' }} className="blue-links">
 
     <div style={{border: "2px solid"}}>
       [![](../../../static/img/md-codi-impact-report.png)](../../../../codi-resources/CODI_Maryland_Impact_Report_20250811.pdf)
     </div>
 
-    [<span style={{color: '#3B8BFF'}}>Maryland CODI Impact
-    Report</span>](../../../../codi-resources/CODI_Maryland_Impact_Report_20250811.pdf)
+    [Maryland CODI Impact Report](../../../../codi-resources/CODI_Maryland_Impact_Report_20250811.pdf)
 
     <div style={{border: "2px solid"}}>
       [![](../../../static/img/codi-impact-summary-thumbnail.png)](../../../../codi-resources/CODI_Maryland_Impact_Summary_Final.pdf)
     </div>
 
-    [<span style={{color: '#3B8BFF'}}>Maryland CODI Impact
-    Summary</span>](../../../../codi-resources/CODI_Maryland_Impact_Summary_Final.pdf)
+    [Maryland CODI Impact Summary](../../../../codi-resources/CODI_Maryland_Impact_Summary_Final.pdf)
 
 </div>
